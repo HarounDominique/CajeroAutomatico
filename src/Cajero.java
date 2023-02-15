@@ -1,4 +1,5 @@
 public class Cajero {
+    //Localidades vendidas TOTALES:
     private int localidades;
 
     public synchronized void sumarLocalidades(int localidades){
@@ -8,5 +9,7 @@ public class Cajero {
         return this.localidades;
     }
 
-    
+    public Cajero() {
+
+    }
 }
